@@ -182,6 +182,7 @@ an introspective touch to the project's core.
 
     def play_documentary():
         import os
-        video_path = r"assets/FortiFin.mp4"
+        video_path = r"https://youtu.be/JGPFPI0vSEU"
+        #video_path = r"assets/FortiFin.mp4"
         os.system(f'start {video_path}')
 
