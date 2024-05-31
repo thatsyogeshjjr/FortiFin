@@ -2,13 +2,17 @@ import "./App.css";
 import Logo from "./assets/logo.png";
 import HeroImg from "./assets/heroimg.jpg";
 import scrs1 from "./assets/scrs1.jpg";
+import scrs2 from "./assets/scrs2.png";
+import scrs3 from "./assets/scrs3.png";
+import scrs4 from "./assets/scrs4.png";
+import githubLogo from "./assets/github.png";
 
 function App() {
   return (
     <>
       <div
         id="header"
-        className="absolute w-screen flex flex-row justify-between px-10 py-5 bg-zinc-800 text-slate-200"
+        className="top-0 w-screen flex flex-row justify-between px-10 py-5 bg-zinc-800 text-slate-200 sticky"
       >
         <div id="logo" className="flex flex-row">
           <img src={Logo} className="h-10" />
@@ -50,14 +54,18 @@ function App() {
         </h2>
         <div
           id="images"
-          className="flex flex-row gap-4 p-5 overflow-scroll no-scrollbar"
+          className="flex flex-row gap-20 p-5 overflow-scroll no-scrollbar h-80"
         >
           <img src={scrs1} alt="" />
-          <img src={scrs1} alt="" />
-          <img src={scrs1} alt="" />
-          <img src={scrs1} alt="" />
-          <img src={scrs1} alt="" />
+          <img src={scrs2} alt="" />
+          <img src={scrs3} alt="" />
+          <img src={scrs4} alt="" />
         </div>
+      </div>
+      <div id="footer" className="bg-zinc-800 p-10 bottom-0">
+        <a href="https://github.com/thatsyogeshjjr/FortiFin" target="_blank">
+          <img src={githubLogo} alt="" className="h-10" />
+        </a>
       </div>
     </>
   );
