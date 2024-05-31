@@ -17,6 +17,9 @@ export var Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
+              <Link to="/dev">Developers</Link>
+            </li>
+            <li>
               <a
                 href="https://github.com/thatsyogeshjjr/FortiFin"
                 target="_blank"
@@ -25,10 +28,7 @@ export var Navbar = () => {
               </a>
             </li>
             <li>
-              <Link to="/dev">Developers</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
+              <Link to="/thanks">Our Thanks</Link>
             </li>
           </ul>
         </div>
