@@ -1,0 +1,19 @@
+{
+  "name": "FortiFin",
+  "short_name": "FortiFin",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#27282A",
+  "background_color": "#27282A",
+  "display": "standalone"
+}
