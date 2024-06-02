@@ -9,7 +9,7 @@ export var ThanksPage = () => {
         <div className="person">
           <h2 className="text-2xl">Madam Mamta Panwar</h2>
           <p className="text-lg px-5">
-            for empowering us to work on this project.{" "}
+            for empowering us to work on this project.
           </p>
         </div>
         <div className="person">
@@ -38,6 +38,9 @@ export var ThanksPage = () => {
           <p className="text-4xl text-center p-8 font-bold">
             Thanks for the awesome time.
           </p>
+        </div>
+        <div className="person">
+          <p className="text-xl p-8 ">From Yogesh jajoria</p>
         </div>
       </div>
     </>
